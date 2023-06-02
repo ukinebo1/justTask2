@@ -7,64 +7,77 @@
     <title>Form Page</title>
     <link rel="stylesheet" href="./styles/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Halant:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300;600&family=Manrope:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <!-- <div></div> -->
 
-    <div class="contact"><h1>Contact Form</h1></div>
+    <h1>Contact Form</h1>
+    <form action="">
 
     <div class="main">
-        <div class="section">
-            <div class="name"><label for="name">Name:</label></div>
-            <div><input type="text" placeholder="Enter your name" class="inputName" required></div>
-        </div>
-        <div class="section">
-            <div class="username"><label for="username">Username:</label></div>
-            <div><input class="inputUserName" type="text" placeholder="Enter your username" required></div>
-        </div>
-        <div class="section">
-            <div class="pass"><label for="password">Password:</label></div>
-            <div><input class="inputPassWord" type="text" placeholder="Enter your password" required></div>
-        </div>
-        <div class="section">
-            <div class="pw"><label for="password">Re-type Password:</label></div>
-            <div><input type="text" placeholder="Enter your Password" class="reInput" required></div>
-        </div>
-        <div class="section">
-            <div class="gender"><label for="gender">Gender:</label></div>
-            <div class="section1"><input type="radio" class="input_section" >Male</div>
-            <div class="section1"><input type="radio"class="input_section" >Female</div>
-        </div>
-        <div class="section">
-            <div class="skills"><label for="skills">Techie Skills:</label></div>
-            <div><input type="checkbox" name="html" id="html" class="inputSkills">HTML</div>
-            <div><input type="checkbox" name="css" id="css" class="inputSkills">CSS</div>
-            <div><input type="checkbox" name="javascript" id="javascript" class="inputSkills">JavaScript</div>
-        </div>
-        <div class="section">
-            <div class="num"><label for="number">Phone Number:</label></div>
-            <div><input class="inputNum" type="number" placeholder="Enter your address" required></div>
-        </div>
-        <div class="section">
-            <div class="email"><label for="email">Email:</label></div>
-            <div><input class="inputEmail" type="text" placeholder="Enter your Email"  required></div>
-        </div>
-        <div class="section">
-            <div class="college"><label for="college">College:</label></div>
-            <input type="text" placeholder="Select a College" class="inputCollege" required>
-                <select name="college" id="">
-                <option value=""></option>
-            </select>
-        </div>
-        <div><input  class="inputSubmit" type="button" value="Submit"></div>
 
+        <div class="section">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" class="inputW" required>
+        </div>
 
+        <div class="section">
+            <label for="username">Username:</label>
+            <input class="inputW" type="text" placeholder="Enter your username" required>
+        </div>
 
+        <div class="section">
+            <label for="password">Password:</label>
+            <input class="inputW" type="text" placeholder="Enter your password" required>
+        </div>
 
+        <div class="section">
+            <label for="password">Re-type Password:</label>
+            <input type="text" placeholder="Enter your Password" class="inputW" required>
+        </div>
+
+        <div class="section">
+            <label for="gender">Gender:</label>
+            <input type="radio" class="input_section" >Male
+            <input type="radio"class="input_section" >Female
+        </div>
+
+        <div class="section">
+            <label for="skills">Techie Skills:</label>
+            <input type="checkbox" name="html" id="html" class="inputSkills">HTML
+            <input type="checkbox" name="css" id="css" class="inputSkills">CSS
+            <input type="checkbox" name="javascript" id="javascript" class="inputSkills">JavaScript
+        </div>
+
+        <div class="section">
+            <label for="number">Phone Number:</label>
+            <input class="inputW" type="number" placeholder="Enter your address" required>
+        </div>
+
+        <div class="section">
+            <label for="email">Email:</label>
+            <input class="inputW" type="text" placeholder="Enter your Email"  required>
+        </div>
+
+        <div class="section">
+            <label for="college">College:</label>
+            <!-- <input type="text" placeholder="Select a College" class="inputW" required> -->
+                <select name="college" id="" class="inputW">
+                    <option value="">Select a College</option>
+                </select>
+        </div>
+
+        <div class="section">
+            <Label for="submit" class="submit"></Label>
+            <input  class="submitW" type="button" value="Submit">
+        </div>
+        
     </div>
+</form>
 </div>
 </body>
 </html>
