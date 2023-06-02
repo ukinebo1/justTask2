@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    /* border: 2px so?lid green; */
+    /* width: 1134px; */
+    /* height: 1189px; */
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.contact h1{
+    padding-left: 142px;
+padding-top: 78px;
+border-radius: nullpx;
+font-weight: 600;
+font-size: 64px;
+line-height: 96px;
+letter-spacing: 0.5%;
+color: #000000;
+}
+
+.main{
+    padding-left: 142px;
+    padding-top: 50px;
+/* padding-top: 217px; */
+
+}
+
+.section{
+    display: flex;
+    /* padding: 20px; */
+}
+label{
+    font-size: 32px;
+font-weight: 600;
+color: #000000;
+
+}
+
+/* input{
+    /* font-size: 32px;
+font-weight: 600; */
+/* color: #828282;
+border: 1px solid #828282;
+border-radius: 4px;
+margin-left: 40px; 
+margin-bottom: 20px; */
+/* height: 56px; */
+/* width: 400px; */
+
+/* }
+
+.section1 .input_section{
+    color: #828282;
+    margin-left: 20px;
+ 
+} */ 
+
+.inputName{
+    margin-left: 230px;
+    margin-bottom: 20px;
+    /* margin-top: -1px; */
+   
+}
+
+.inputUserName{
+    margin-left: 170px;
+    margin-bottom: 10px;
+   
+}
+
+.inputPassWord{
+    margin-left: 180px;
+    /* height: 56px; */
+    /* width: 400px; */
+    margin-bottom: 20px;
+    /* border: 1px solid #828282;
+    border-radius: 4px; */
+    /* font-size: 32px; */
+    /* font-weight: 600; */
+}
+
+.reInput{
+    margin-left: 60px;
+}
+
+.inputNum{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.inputEmail{
+    margin-left: 220px;
+    margin-bottom: 20px;
+}
+.inputSubmit{
+    margin-left: 310px;
+    width: 45%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: #FFFFFF;
+}
+.inputCollege{
+    margin-left: 200px;
+}
+
+.inputSkills{
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.input_section{
+    margin-left: 200px;
+    margin-top: 20px;
+    /* font-size: 20px; */
+    
+}
+
+
+input{
+    font-size: 32px;
+    font-weight: 600;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    padding: 5px;
+}
+
