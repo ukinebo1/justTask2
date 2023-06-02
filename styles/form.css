@@ -7,8 +7,8 @@
 .container{
     
     /* border: 2px so?lid green; */
-    /* width: 1134px; */
-    /* height: 1189px; */
+     width: 1134px; 
+     height: 1189px; 
     display: block;
     margin: 0 auto;
     background-color: #FFFFFF;
@@ -102,7 +102,7 @@ margin-bottom: 20px; */
 }
 .inputSubmit{
     margin-left: 310px;
-    width: 45%;
+    width: 450px;
     margin-top: 20px;
     padding: 10px;
     background-color: blue;
